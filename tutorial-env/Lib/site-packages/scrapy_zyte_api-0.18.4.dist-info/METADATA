@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: scrapy-zyte-api
+Version: 0.18.4
+Summary: Client library to process URLs through Zyte API
+Home-page: https://github.com/scrapy-plugins/scrapy-zyte-api
+Author: Zyte Group Ltd
+Author-email: info@zyte.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: packaging >=20.0
+Requires-Dist: scrapy >=2.0.1
+Requires-Dist: zyte-api >=0.5.1
+Provides-Extra: provider
+Requires-Dist: andi >=0.6.0 ; extra == 'provider'
+Requires-Dist: scrapy-poet >=0.22.3 ; extra == 'provider'
+Requires-Dist: web-poet >=0.17.0 ; extra == 'provider'
+Requires-Dist: zyte-common-items >=0.8.0 ; extra == 'provider'
+
+===============
+scrapy-zyte-api
+===============
+
+.. image:: https://img.shields.io/pypi/v/scrapy-zyte-api.svg
+   :target: https://pypi.python.org/pypi/scrapy-zyte-api
+   :alt: PyPI Version
+
+.. image:: https://img.shields.io/pypi/pyversions/scrapy-zyte-api.svg
+   :target: https://pypi.python.org/pypi/scrapy-zyte-api
+   :alt: Supported Python Versions
+
+.. image:: https://github.com/scrapy-plugins/scrapy-zyte-api/actions/workflows/test.yml/badge.svg
+   :target: https://github.com/scrapy-plugins/scrapy-zyte-api/actions/workflows/test.yml
+   :alt: Automated tests
+
+.. image:: https://codecov.io/gh/scrapy-plugins/scrapy-zyte-api/branch/main/graph/badge.svg?token=iNYIk4nfyd
+   :target: https://codecov.io/gh/scrapy-plugins/scrapy-zyte-api
+   :alt: Coverage report
+
+.. description starts
+
+Scrapy plugin for seamless `Zyte API`_ integration.
+
+.. _Zyte API: https://docs.zyte.com/zyte-api/get-started.html
+
+.. description ends
+
+* Documentation: https://scrapy-zyte-api.readthedocs.io/en/latest/
+* License: BSD 3-clause

@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: scrapy-spider-metadata
+Version: 0.1.2
+Summary: Utilities to extend Scrapy spiders with usable metadata.
+Author-email: Zyte Group Ltd <info@zyte.com>
+License: The MIT License (MIT)
+        
+        Copyright (c) 2023 Zyte Group Ltd
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in
+        all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+        THE SOFTWARE.
+        
+Project-URL: Source, https://github.com/scrapy-plugins/scrapy-spider-metadata
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: packaging >=14.1
+Requires-Dist: pydantic >=1
+Requires-Dist: scrapy >=1.0.0
+
+======================
+scrapy-spider-metadata
+======================
+
+.. image:: https://img.shields.io/pypi/v/scrapy-spider-metadata.svg
+   :target: https://pypi.python.org/pypi/scrapy-spider-metadata
+   :alt: PyPI version
+
+.. image:: https://img.shields.io/pypi/pyversions/scrapy-spider-metadata.svg
+   :target: https://pypi.python.org/pypi/scrapy-spider-metadata
+   :alt: Supported Python versions
+
+.. image:: https://github.com/scrapy-plugins/scrapy-spider-metadata/workflows/tox/badge.svg
+   :target: https://github.com/scrapy-plugins/scrapy-spider-metadata/actions
+   :alt: Build status
+
+.. image:: https://codecov.io/github/scrapy-plugins/scrapy-spider-metadata/coverage.svg?branch=master
+   :target: https://codecov.io/gh/scrapy-plugins/scrapy-spider-metadata
+   :alt: Coverage report
+
+.. image:: https://readthedocs.org/projects/scrapy-spider-metadata/badge/?version=latest
+   :target: https://scrapy-spider-metadata.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation status
+
+.. description starts
+
+``scrapy-spider-metadata`` is a Python 3.8+ library of utilities to extend
+Scrapy spiders with usable metadata.
+
+.. description ends
+
+* Documentation: https://scrapy-spider-metadata.readthedocs.io/en/latest/
+* License: BSD 3-clause

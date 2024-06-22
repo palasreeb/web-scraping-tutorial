@@ -1,0 +1,4 @@
+requirements:
+  file: requirements.txt
+stacks:
+  default: LATEST_STACK
